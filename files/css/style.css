@@ -209,3 +209,19 @@ video {
     margin-bottom: 20px;
 }
 /*-- carousel ends --*/
+/*-- footer starts --*/
+.footer-heading{
+  color: white;
+  padding: 15px;
+  margin-left: -10px;
+}
+.footer-link{
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: white;
+  text-decoration: none;
+}
+/*-- footer ends --*/
