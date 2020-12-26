@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -47,7 +48,7 @@
             <div class="video-wrap">
                 <div id="video">
                     <video id="bgvid" autoplay loop muted playsinline>
-                        <source src="files/videos/stars.mp4" type="video/mp4">
+                        <source src="files/videos/Waterfall - 37088.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -201,18 +202,47 @@
         </div>
         
         <!-- our clients starts -->
-        <div class="container-fluid">
-            <h2 class="text-center">Our  Clients</h2>
-            <section class="customer-logos slider">
-               <div class="slide"><img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt=""></div>
-               <div class="slide"><img src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665_960_720.png" alt=""></div>
-               <div class="slide"><img src="https://cdn.pixabay.com/photo/2017/03/16/21/18/logo-2150297_960_720.png" alt=""></div>
-               <div class="slide"><img src="https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840_960_720.png" alt=""></div>
-               <div class="slide"><img src="https://cdn.pixabay.com/photo/2014/04/02/10/16/fire-303309_960_720.png" alt=""></div>
-               <div class="slide"><img src="https://cdn.pixabay.com/photo/2015/07/13/07/41/icons-842893_960_720.png" alt=""></div>
-               <div class="slide"><img src="https://cdn.pixabay.com/photo/2016/04/01/00/22/cat-1298141_960_720.png" alt=""></div>
-               <div class="slide"><img src="https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_960_720.png" alt=""></div>                  
-            </section>
+        <div class="container-fluid" style="background-color: black; padding: 100px;">
+            <h2 class="text-center" style="margin-bottom: 100px; color: white; font-size: 70px;">Our  Clients</h2>
+            <div class="row" style="margin-top: -50px;">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/6.jpg" style="width: 350px; height: 200px;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/7.jpg" style="width: 350px; height: 200px;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/8.jpg" style="width: 350px; height: 200px;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/9.jpg" style="width: 350px; height: 200px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 offset-lg-2 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/10.jpg" style="width: 300px; height: 200px;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/11.jpg" style="width: 300px; height: 200px;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/12.jpg" style="width: 300px; height: 200px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/13.jpg" style="width: 350px; height: 200px;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/14.jpg" style="width: 350px; height: 200px;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/15.jpg" style="width: 350px; height: 200px;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <img src="files/images/16.png" style="width: 350px; height: 200px;">
+                </div>
+            </div>
         </div>
         <!-- our partners ends -->
         
@@ -306,30 +336,4 @@
     }add_chatinline();
 </script>
 
-<!--AOur Clients script-->
-<script>
-    $(document).ready(function(){
-        $('.customer-logos').slick({
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 1500,
-            arrows: false,
-            dots: false,
-            pauseOnHover: false,
-            responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 4
-                }
-            }, {
-                breakpoint: 520,
-                settings: {
-                    slidesToShow: 3
-                }
-            }]
-        });
-    });
-
-</script>
 </html>
