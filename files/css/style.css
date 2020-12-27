@@ -93,6 +93,15 @@ video {
     font-size: 15px;
     padding: 5px;
 }
+
+.btn-lg:hover{
+    border-width: medium;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #02BE6E;
+    color: white;
+}
 }
 
 .capt-bg{
@@ -103,65 +112,11 @@ video {
 }
 
 .margin-all{
-    margin-top: 140px;
+    margin-top: 100px;
     margin-bottom: 40px;
 }
 
-
-
-/*-- our clients -*/
-.slick-slide {
-    margin: 0px 20px;
-}
-
-.slick-slide img {
-    width: 100%;
-}
-
-.slick-slider
-{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-
-.slick-list
-{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-.slick-slide
-{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-.slick-slide img
-{
-    display: block;
-}
-
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-
-.copy{
-    padding-top: 250px;
-}
-/*-- our clients ends -*/
-
+/*-- our client starts --*/
 .slider-area{
     background: #0fd0c5;
     padding-top: 50px;
@@ -185,7 +140,7 @@ video {
     padding-bottom: 15px;
     padding-top: 0;
 }
-/*-- what they say ends --*/
+/*-- our clients ends --*/
 
 /*-- carousel starts --*/
 .carousel-item{
@@ -203,12 +158,14 @@ video {
     color: white;
     width: 100%;
     left: 0;
+    padding-bottom: 15px;
 }
 
 .carousel-indicators{
-    margin-bottom: 20px;
+    margin-top: 150px;
 }
 /*-- carousel ends --*/
+
 /*-- footer starts --*/
 .footer-heading{
   color: white;
