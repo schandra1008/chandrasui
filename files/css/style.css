@@ -104,17 +104,34 @@ video {
 }
 }
 
-.capt-bg{
-    background-color: black;
-    color: white;
-    width: 50%;
-    left: 25%;
-}
-
 .margin-all{
     margin-top: 100px;
     margin-bottom: 40px;
 }
+
+/*-- carousel starts --*/
+.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.carousel-caption{
+    background-color: black;
+    color: white;
+    width: 100%;
+    left: 0;
+    padding-bottom: 15px;
+}
+
+.carousel-indicators{
+    margin-top: 150px;
+}
+/*-- carousel ends --*/
 
 /*-- our client starts --*/
 .slider-area{
@@ -141,31 +158,6 @@ video {
     padding-top: 0;
 }
 /*-- our clients ends --*/
-
-/*-- carousel starts --*/
-.carousel-item{
-    height: 100%;
-    width: 100%;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    height: 40px;
-    width: 40px;
-}
-
-.carousel-caption{
-    background-color: black;
-    color: white;
-    width: 100%;
-    left: 0;
-    padding-bottom: 15px;
-}
-
-.carousel-indicators{
-    margin-top: 150px;
-}
-/*-- carousel ends --*/
-
 
 /*-- our team --*/
 #team{
@@ -212,29 +204,8 @@ a:hover{
     font-size: 17px;
 }
 
-.team-social li{
-    display: inline-block;
-}
-
-.team-social li a{
-    font-size: 14px;
-    color: #18191d;
-    height: 38px;
-    width: 38px;
-    line-height: 40px;
-    display: inline-block;
-    text-align: center;
-    margin: 0;
-    border: 1px solid transparent;
-    border-radius: 50%;
-}
-
 .team-img{
     position: relative;
-}
-
-.team-social.white-bg li a{
-    background: white;
 }
 
 .team-coverflow{
@@ -264,20 +235,6 @@ a:hover{
     bottom: 0;
 }
 
-.team-box-content{
-    background-color: yellow;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    padding: 20px 0;
-    bottom: -20%;
-    z-index: 1;
-    transition: all linear .4s;
-}
-
 .team-coverflow .team-img{
     overflow: hidden;
     width: 100%;
@@ -286,41 +243,6 @@ a:hover{
 .swiper-slide-active .team-coverflow:hover img{
     transform: scale(1.1);
 }
-
-.team-progress{
-    padding-bottom: 16px;
-}
-
-.team-progress .progress-item:not(:last-child){
-    margin-bottom: 32px;
-}
-
-.team-progress .progress{
-    height: 12px;
-    margin-top: 12px;
-    overflow: hidden;
-    border-radius: 50px;
-    background-color: #eaeaea;
-}
-
-.team-progress .progress-item .count{
-    font-weight: 500;
-}
-
-.team-progress .progress-bar{
-    height: 100%;
-    border-radius: 50px;
-    background: #f1c30f;
-}
-
-.w-82{
-    width: 82% !important
-}
-
-.w-77{
-    width: 77% !important
-}
-
 
 .team-member-slider{
     padding-bottom: 165px;
